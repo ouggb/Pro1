@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.box{
+	width:1030px;
+	height:370px;
+	background-color:#CCC;}
+.box .tp1,.tp2,.tp3,.tp4,.tp5,.tp6,.tp7,.tp8{
+	width:250px;
+	height:180px;}
+.box .tp1{
+	background-image: url(image/1.jpg);
+	float:left;}
+.box .tp2{
+	background-image: url(image/2.jpg);
+	float:left;
+	margin-left:10px;}
+.box .tp3{
+	background-image: url(image/4.jpg);
+	float:left;
+	margin-left:10px;}
+.box .tp4{
+	background-image: url(image/1.jpg);
+	float:left;
+	margin-left:10px;}
+.box .tp5{
+	background-image: url(image/2.jpg);
+	float:left;
+	margin-top:10px;}
+.box .tp6{
+	background-image: url(image/2.jpg);
+	float:left;
+	margin-left:10px;
+	margin-top:10px;}
+.box .tp7{
+	background-image: url(image/2.jpg);
+	float:left;
+	margin-left:10px;
+	margin-top:10px;}
+.box .tp8{
+	background-image: url(image/1.jpg);
+	float:left;
+	margin-left:10px;
+	margin-top:10px;}
+.box .tm{
+	width:150px;
+	height:150px;
+	border-radius:150px;
+	background-color:rgba(0,0,0,0.5);
+	margin-left:50px;
+	margin-top:15px;
+	text-align:center;
+	overflow:hidden;}
+.box .tm p{
+	font-size:25px;
+	line-height:0px;
+	color:#FFFFFF;
+	margin-top:50px;}
+.box .tm .price{
+	font-size:16px;
+	color:#FFFFFF;}
+.box .tm .price span{
+	color:#ff6600;
+	font-size:25px;}
